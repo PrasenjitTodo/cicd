@@ -4,9 +4,9 @@ const express       = require('express');
 const app   = express();
 
 app.use('/', (req, res, next)=>{
-    console.log('-: Welcome :-');
-    res.send('-: Welcome :-');
+    console.log('-: Welcome 02:-');
+    res.send('-: Welcome 02:-');
 });
 
-console.log('-: App Running :-');
+console.log('-: App Running 02:-');
 app.listen(4000);
